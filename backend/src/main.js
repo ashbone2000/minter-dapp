@@ -136,7 +136,7 @@ const addMetadata = (_dna, _edition) => {
     edition: _edition,
     ...extraMetadata,
     date: dateTime,
-    compiler: "HashLips Art Engine - codeSTACKr Modified",
+    compiler: "Rabbitat.io via pSol, HashLips Art Engine, and codeSTACKr",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
